@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "auth.password",
+      "type": "top.continew.admin.config.satoken.LoginPasswordProperties",
+      "sourceType": "top.continew.admin.config.satoken.LoginPasswordProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "auth.password.excludes",
+      "type": "java.lang.String[]",
+      "description": "排除（放行）路径配置",
+      "sourceType": "top.continew.admin.config.satoken.LoginPasswordProperties"
+    }
+  ],
+  "hints": []
+}

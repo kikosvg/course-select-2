@@ -1,0 +1,30 @@
+{
+  "groups": [
+    {
+      "name": "generator",
+      "type": "top.continew.admin.generator.config.properties.GeneratorProperties",
+      "sourceType": "top.continew.admin.generator.config.properties.GeneratorProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "generator.exclude-tables",
+      "type": "java.lang.String[]",
+      "description": "排除数据表（哪些数据表不展示在代码生成中）",
+      "sourceType": "top.continew.admin.generator.config.properties.GeneratorProperties"
+    },
+    {
+      "name": "generator.template-configs",
+      "type": "java.util.Map<java.lang.String,top.continew.admin.generator.config.properties.GeneratorProperties$TemplateConfig>",
+      "description": "模板配置",
+      "sourceType": "top.continew.admin.generator.config.properties.GeneratorProperties"
+    },
+    {
+      "name": "generator.type-mappings",
+      "type": "java.util.Map<top.continew.starter.data.core.enums.DatabaseType,java.util.Map<java.lang.String,java.util.List<java.lang.String>>>",
+      "description": "类型映射",
+      "sourceType": "top.continew.admin.generator.config.properties.GeneratorProperties"
+    }
+  ],
+  "hints": []
+}
